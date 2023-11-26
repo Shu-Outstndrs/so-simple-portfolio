@@ -1,0 +1,66 @@
+<nav class="m-4">
+  <ul class="flex gap-1 sm:gap-4 items-center justify-center">
+    <li>
+      <a href="#about" class="">
+        <button
+          class="bg-transparent text-gray-600 link link-underline link-underline-black
+         rounded-2xl p-3 sm:p-4 no-underline"
+          >About
+        </button>
+      </a>
+    </li>
+    <li>
+      <a href="#works" class="">
+        <button
+          class="bg-transparent text-gray-600 link link-underline link-underline-black
+           rounded-2xl p-3 sm:p-4 no-underline"
+          >Works
+        </button>
+      </a>
+    </li>
+    <li>
+      <a href="#blogs" class="">
+        <button
+          class="bg-transparent text-gray-600 link link-underline link-underline-black
+         rounded-2xl p-3 sm:p-4 no-underline"
+          >Blogs
+        </button>
+      </a>
+    </li>
+    <li>
+      <a href="#contact" class="">
+        <button
+          class="bg-transparent text-gray-600 link link-underline link-underline-black
+         rounded-2xl p-3 sm:p-4 no-underline"
+          >Contact
+        </button>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<style>
+  .link-underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent),
+      linear-gradient(#fff, #fff);
+    background-size: 0 1px;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    transition:
+      background-size 0.2s ease-in-out,
+      background-color 0.15s ease-in-out;
+    background-color: transparent;
+  }
+
+  .link-underline-black {
+    background-image: linear-gradient(transparent, transparent),
+      linear-gradient(orange, orange);
+  }
+
+  .link-underline:hover {
+    background-size: 100% 2px;
+    background-position: 50% 100%;
+    background-color: #d1d5db;
+  }
+</style>
